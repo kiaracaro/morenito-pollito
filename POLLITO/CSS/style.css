@@ -1,0 +1,51 @@
+/* CSS/style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: crimson;
+}
+
+.body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.body-tittle {
+    text-align: center;
+    color: white;
+}
+
+.body-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: 8px solid red;
+    border-radius: 40%;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .body {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .body-tittle {
+        font-size: 24px;
+    }
+
+    button {
+        width: 40%;
+    }
+}

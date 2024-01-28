@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queres ser mi novio? 🥰💍</title>
+    <link rel="stylesheet" href="CSS\style.css">
+  
+</head>
+<body class="body">
+    <h1 class="body-tittle">Queres ser mi novio? 🥰💍</h1>
+    <img class="body-img" src="IMG/principal.jpg" alt="Esta imagen contiene la foto de Sherk y Fiona de la mano">
+    <button id="yes">Shi🥰💍</button>
+    <button id="no">Ño💔</button>
+
+<script>
+        
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const somosNovios = () => {
+      location.href = 'https://www.youtube.com/watch?v=QcQ-PxUtgaE';
+    };
+
+    const nosomosnada = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', somosNovios);
+    vuttonNo.addEventListener('mouseover', nosomosnada);
+</script>
+</body>
+</html>
